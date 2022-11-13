@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_course"
+            android:textSize="26sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            />
+        <EditText
+            android:id="@+id/edt01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="edt01"
+            android:textSize="24sp"
+            android:autofillHints="CSE113" />
+        <EditText
+            android:layout_marginTop="3dp"
+            android:id="@+id/edt02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="edt02"
+            android:textSize="24sp"
+            android:autofillHints="PC_B" />
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:padding="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_marginLeft="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#82B1FF"
+                android:text="@string/cancel"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_marginRight="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#82B1FF"
+                android:text="@string/add"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
