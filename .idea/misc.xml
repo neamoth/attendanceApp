@@ -5,9 +5,15 @@
       <map>
         <entry key="..\:/Android/AttendanceApp/app/src/main/res/drawable/ad_plus.xml" value="0.1" />
         <entry key="..\:/Android/AttendanceApp/app/src/main/res/drawable/add_plus.xml" value="0.116" />
+        <entry key="..\:/Android/AttendanceApp/app/src/main/res/drawable/rounded_button_colored.xml" value="0.174" />
         <entry key="..\:/Android/AttendanceApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Android/AttendanceApp/app/src/main/res/layout/activity_student.xml" value="0.18645833333333334" />
         <entry key="..\:/Android/AttendanceApp/app/src/main/res/layout/class_dialog.xml" value="0.18541666666666667" />
         <entry key="..\:/Android/AttendanceApp/app/src/main/res/layout/class_item.xml" value="0.18645833333333334" />
+        <entry key="..\:/Android/AttendanceApp/app/src/main/res/layout/dialog.xml" value="0.18645833333333334" />
+        <entry key="..\:/Android/AttendanceApp/app/src/main/res/layout/student_item.xml" value="0.18541666666666667" />
+        <entry key="..\:/Android/AttendanceApp/app/src/main/res/layout/toolbar.xml" value="0.18541666666666667" />
+        <entry key="..\:/Android/AttendanceApp/app/src/main/res/menu/student_menu.xml" value="0.18645833333333334" />
       </map>
     </option>
   </component>

@@ -1,7 +1,7 @@
 package com.example.attendanceapp;
 
 public class ClassItem {
-    String courseCode;
+    private  String courseCode;
 
     public String getCourseCode() {
         return courseCode;
@@ -19,7 +19,7 @@ public class ClassItem {
         this.courseSection = courseSection;
     }
 
-    String courseSection;
+    private String courseSection;
 
     public ClassItem(String courseCode, String courseSection) {
         this.courseCode = courseCode;

@@ -1,29 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
     android:layout_height="96dp">
-    <LinearLayout
-        android:padding="16dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/courseTv"
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Course Code"
-            android:textSize="24sp"
-            android:textColor="#000000"/>
-        <TextView
-            android:layout_marginTop="5dp"
-            android:id="@+id/sectionTv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Course Section"
-            android:textSize="18sp"
-            android:textColor="#757474"/>
-    </LinearLayout>
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:padding="16dp">
 
-</RelativeLayout>
+            <TextView
+                android:id="@+id/courseTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course Code"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/sectionTv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Course Section"
+                android:textColor="#757474"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
